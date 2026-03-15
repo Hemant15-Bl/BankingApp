@@ -1,5 +1,5 @@
-## Overview
-A Bank App is dedicated web application or mobile friendly website. Android devices using Java. The application provides users with the ability to perform various banking operations and manage their accounts conveniently from their mobile devices.
+# Banking Application - Spring Boot
+A mobile friendly banking web application built using **Java and Spring Boot** that allows users to securely manage accounts, transfer funds, and view transaction history. The system demonstrates secure authentication, transaction management, and database integration.
 
 ## Live Demo
 http://bankingapp-production-a7c0.up.railway.app
@@ -7,38 +7,37 @@ http://bankingapp-production-a7c0.up.railway.app
 ## Features
 The banking application offers the following features:
 
-1. User Authentication
-- Users can create an account and log in securely using their credentials.
-- Passwords are securely stored using encryption techniques.
+### User Authentication
+- Secure user registration and login.
+- Passwords encryption for secure credential storage.
 
-2. Account Management
-- Users can view their account balance and transaction history.
-- Users can transfer funds between their own accounts or to other users.
-- Users can manage their beneficiary list for easy fund transfers.
+### Account Management
+- View account balance and transaction history.
+- Transfer funds between accounts.
+- Manage beneficiaries list for faster transactions.
 
-3. Notifications
-- Users receive notifications for successful transactions, and other important account-related updates.
+### Notifications
+- Receive notifications for successful transactions.
+- Alert for important account updates.
 
-4. Security
-- The application ensures secure communication using encryption protocols (e.g., HTTPS).
-- Appropriate user authentication measures are implemented to prevent unauthorized access.
-- Data is securely stored on the device and server.
+### Security
+- Secure communication using HTTPS.
+- Authentication system preventing unauthorized access.
+- Secure server side data storage.
 
-## Technologies Used
- - Java: Programming language used for application development.
- - Tool: Spring Tool Suits (IDE) for Android development.
- - XML: Markup language used for designing user interfaces.
- - MySQL: Database used for storing and managing user data.
- - Maven: Build system used for building and managing dependencies.
- - OOP.
- - State Design Pattern.
- 
-## This app features:
-Send money to another account
-Send money between own accounts
-Creating a bank account
-Seeing the history of transactions
-Adding and paying the invoice
-Change user account settings
+## Tech Stack
+ #### Backend
+ - Java
+ - Spring Boot
+ - Maven
+#### Database
+- MySQL
+#### Frontend
+- Thymeleaf
+- HTML
+- CSS
+#### Concept Used
+- Object-Oriented Programming (OOP)
+- State Design Pattern
 
 ![image alt](https://github.com/Hemant15-Bl/Bank-App/blob/ae19853408a77b8deed00e3f6b22f45beef4f652/Readme.png)
